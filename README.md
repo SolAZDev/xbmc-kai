@@ -2,7 +2,7 @@
 An attempt to integrate [xLink Kai](https://www.teamxlink.co.uk/) back into XBMC4Xbox and derratives
 
 ### How it works
-XBMC-Kai makes use of Kai Engine's Simple HTTP Api (Thanks CrunchBite!!) to comunitcate to the engine. 
+XBMC-Kai makes use of Kai Engine's Simple HTTP Api (Thanks CrunchBite!!) to comunitcate to the engine. You can take a look at an idea of how it can be like [here](./Flowchart.md)
 
 ### Why are you doing this?
 Hopes are to have something **similar** to the old Kai integration in [XBMC Build rev14095](http://149.56.47.64/xbox/XBMC-SVN_2008-07-15_rev14095-T3CH-FIXED.rar)
