@@ -10,7 +10,7 @@ Graphical UI Coming soon
 [0.2] Chat
 
 [0.3] Friends
-<br>
+<br><br><br>
 
 [1] Games
 
@@ -21,7 +21,7 @@ Graphical UI Coming soon
 [1.1.1.1] Join Arena And Launch Game
 
 [1.1.1.2] Join Chat (redirect to 2)
-
+<br><br><br>
 
 ### To be developed after current scope
 [2] Chat (Active arena, if any (use getvector))
@@ -33,7 +33,7 @@ Graphical UI Coming soon
 [2.1.2] Send Message (Show Keyboard)
 
 [2.2] Actual Chat
-
+<br><br><br>
 
 [3] Friends (WIP)
 
