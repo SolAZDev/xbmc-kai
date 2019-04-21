@@ -1,5 +1,20 @@
 <window id="9001">
-    <control type="grouplist">
+    <id>9001</id>
+    <allowoverlay>no</allowoverlay>
+    <defaultcontrol always="false">100</defaultcontrol>
+    <type>window</type>
+    <control type="label" id="99">
+        <description>ITRAI</description>
+        <posx>80</posx>
+        <posy>80</posy>
+        <width>200</width>
+        <height>50</height>
+        <scroll>true</scroll>
+        <textcolor>FFB2D4F5</textcolor>
+        <shadowcolor>ff000000</shadowcolor>
+        <label>I TRY SO HARD AND GOT SO FAR, IN THE END IT DOES NOT EVEN MATTER</label>
+    </control>
+    <control type="group" id="100">
         <description>[0] Main Menu</description>
         <left>80</left>
         <top>20</top>
@@ -14,17 +29,17 @@
         <onleft>1</onleft>
         <onright>1</onright>
         <align>center</align>
-        <control type="button">
+        <control type="button" id="101">
             <description>[0.1] Games</description>
             <textcolor>FFFFFFFF</textcolor>
             <label>Games</label>
         </control>
-        <control type="button">
+        <control type="button" id="102">
             <description>[0.1] Chat</description>
             <textcolor>FFFFFFFF</textcolor>
             <label>Chat</label>
         </control>
-        <control type="button">
+        <control type="button" id="103">
             <description>[0.1] Friends</description>
             <textcolor>FFFFFFFF</textcolor>
             <label>Friends</label>

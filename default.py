@@ -14,7 +14,32 @@ __cwd__ = __addon__.getAddonInfo('path').decode("utf-8")
 
 
 class XMLMenu(xbmcgui.WindowXMLDialog):
+
     def __init__(self, file, basedir, fall1, fall2):
+        pass
+
+    def onInit(self):
+        # Put your List Populating code/ and GUI startup stuff here
+        pass
+
+    def onAction(self, action):
+        kai = KaiConnect()
+        if action == aPrevMenu:
+            self.close()
+        if action == aSelectItem:
+            d = xbmcgui.Dialog()
+            d.ok('It works?', 'Kai\'s link is... ' +
+                 kai.GetFromKai('getstatus'))
+        pass
+
+    def onClick(self, controlID):
+        """
+            Notice: onClick not onControl
+            Notice: it gives the ID of the control not the control object
+        """
+        pass
+
+    def onFocus(self, controlID):
         pass
 
 
