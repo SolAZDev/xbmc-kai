@@ -1,0 +1,33 @@
+<window id="9001">
+    <control type="grouplist">
+        <description>[0] Main Menu</description>
+        <left>80</left>
+        <top>20</top>
+        <width>640</width>
+        <heigh>50</heigh>
+        <itemgap>20</itemgap>
+        <orientation>vertical</orientation>
+        <usecontrolcoords>false</usecontrolcoords>
+        <visible>true</visible>
+        <onup>2</onup>
+        <ondown>3</ondown>
+        <onleft>1</onleft>
+        <onright>1</onright>
+        <align>center</align>
+        <control type="button">
+            <description>[0.1] Games</description>
+            <textcolor>FFFFFFFF</textcolor>
+            <label>Games</label>
+        </control>
+        <control type="button">
+            <description>[0.1] Chat</description>
+            <textcolor>FFFFFFFF</textcolor>
+            <label>Chat</label>
+        </control>
+        <control type="button">
+            <description>[0.1] Friends</description>
+            <textcolor>FFFFFFFF</textcolor>
+            <label>Friends</label>
+        </control>
+    </control>
+</window>
